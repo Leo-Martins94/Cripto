@@ -1,0 +1,111 @@
+.font-p{
+    font-size: 1rem;
+    font-family: 'Inter', sem serifa;
+}
+
+.font-m{
+    font-size: 1.5rem;
+    font-family: 'Inter', sem serifa;
+}
+
+.container-sem-mensagem{
+    padding: 20px 40px;
+    margin-left: 40px;
+}
+
+.container-com-mensagem-conteudo{
+    display: block;
+    width: 306px;
+    height: 268px;
+    background-color: #E4740C;
+    border: none;
+    padding: 15px;
+    margin: 0 auto;
+}
+.container-com-mensagem-conteudo:focus{
+    outline: none;
+    border:2px solid #d9ff19;
+}
+
+.criptografar{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff ;
+    background-color: #E4740C;
+    border: 2px solid #E4740C;
+    border-radius: 24px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+.criptografar:hover{
+    background: linear-gradient(180deg, #E4740C 0%, #F27400 26.56%, #F4B71A 75%, #F9B60C 100%);
+    color: #ffffff
+}
+
+.criptografar:active{
+    
+    border: 2px dashed rgba(109, 55, 4, 1);
+    background: #DDA924;
+    color: #ffffff;
+}
+
+.descriptografar{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff ;
+    background-color: #DA7315;
+    border: 2px solid #DDA924;
+    border-radius: 24px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.descriptografar:hover{
+    background: linear-gradient(180deg, #E4740C 0%, #F27400 26.56%, #F4B71A 75%, #F9B60C 100%);
+    color: #ffffff;
+}
+
+.descriptografar:active{
+    
+    border: 2px solid rgba(109, 55, 4, 1);
+    background: #DDA924;
+    color: #ffffff;
+}
+
+
+.btn-copiar{
+    width: 150px;
+    display: block;
+    font-size: 1rem;
+    font-weight: bolder;
+    color:rgba(109, 55, 4, 1);
+    cursor:pointer;
+    margin: 0 auto;
+    border: 1px solid #DDA924;
+    padding: 5px 30px;
+    background: linear-gradient(180deg, #F9B60C 0%, #F4B71A 26.56%, #F27400 75%, #E4740C 100%);
+    border-radius: 25px;
+    transition: 0.05s;
+}
+
+.btn-copiar:hover{
+    background: linear-gradient(180deg, #E4740C 0%, #F27400 26.56%, #F4B71A 75%, #F9B60C 100%);
+}
+
+.btn-copiar:active{
+    border: 1px solid #F9B60C;
+    
+}
+
+@media (max-width: 800px){
+    .container-com-mensagem-conteudo{
+        width: 190px;
+        height: 140px;
+    }
+}

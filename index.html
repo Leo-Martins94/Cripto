@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap'); </style>
+    <title>Cripto</title>
+</head>
+<body>
+    <header>
+        <h1><img src="./assets/images/img_logo.svg" alt="logo da cripto"></h1>
+    </header>
+    <main>
+        <div class="box">
+            <section class="mensagem-conteudo">
+                <textarea id="mensagem" class="font-m mensagem" placeholder="Digite sua mensagem" autocapitalize="charecters" required></textarea>
+            
+                <div class="seta">
+                    <img src="./assets/images/seta.svg" alt="">
+                </div>
+                <div id="cripto" class="mensagem-cripto">
+                    <img src="./assets/images/img_sem_mensagens.svg" alt="" width="60%">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p class="font-p container-sem-mensagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </section>
+            <p class="aviso">Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes">
+                <button class="criptografar" onclick="criptografar()" type="button">Criptografar</button>
+                <button class="descriptografar" onclick="descriptografar()" >Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="icon-github">
+            <a href="https://github.com/Leo-Martins94" target="_blank"><img src="./assets/images/img_github.svg" /></a>
+        </div>
+        <div class="icon-linkedin">
+            <a href="https://www.linkedin.com/in/leonardo-martins-developer/" target="_blank"><img src="./assets/images/img_linkedin.svg" /></a>
+        </div>
+    </footer>
+    <script src="./script/script.js" ></script>
+</body>
+</html>

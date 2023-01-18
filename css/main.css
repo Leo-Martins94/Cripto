@@ -1,0 +1,136 @@
+main{
+    margin-top: 75px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flexbox;
+}
+
+.mensagem-conteudo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.mensagem{
+    width: 406px;
+    height: 368px;
+    background-color: #E4740C;
+    border: none;
+    border-radius: 5px;
+    
+    padding: 15px;
+}
+
+.mensagem::-webkit-input-placeholder{
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Inter', sem serifa;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40% 0 30% 0;
+}
+
+.mensagem:focus{
+    outline: none;
+    border:2px solid #d9ff19;
+}
+
+.seta{
+    display: flex;
+    align-content: center;
+    height: 100%;
+}
+
+.seta img{
+    display: block;
+    margin: 100% 0;
+    
+}
+
+.mensagem-cripto{
+    width: 406px;
+    height: 368px;
+    background-color: #E4740C;
+    border-radius: 5px;
+    padding: 17px 0;
+}
+
+.mensagem-cripto img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.mensagem-cripto h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 30px;
+    color: #010101;
+}
+
+.mensagem-cripto p{
+    color: #010101;
+    
+}
+
+.aviso{
+    font-size: 1.2rem;
+    text-align: center;
+
+    font-weight: 400;
+    margin-top: 33px;
+    color: #000000;
+}
+
+.aviso::before{
+    content: url(../assets/images/icon_aviso.svg);
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 800px){
+    .mensagem{
+        width: 220px;
+        height: 184px;
+    }
+    .mensagem::-webkit-input-placeholder{
+        padding: 20% 0 10% 0;
+    }
+    .seta{
+        display: none;
+    }
+    .mensagem-cripto{
+        width: 246px;
+        height: 184px;
+    }
+    .mensagem-cripto img{
+        display: none;
+    }
+
+    .mensagem-cripto p{
+        text-align: center;
+        padding: 10px 40px;
+        margin-left: 9px;
+    }
+    .botoes{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}

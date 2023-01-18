@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.icon-github{
+    vertical-align: middle;
+    margin-top: 11px;
+}
